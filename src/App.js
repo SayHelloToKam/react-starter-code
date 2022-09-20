@@ -1,10 +1,18 @@
 import './App.css';
+import Header from './Header'
+import Footer from './Footer'
+import HomePage from './HomePage'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
+
+  return ( 
+  
+    <div className="container">
+      <Header/>
+      <HomePage />
+      <Footer/>
     </div>
+
   );
 }
 
